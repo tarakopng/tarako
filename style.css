@@ -1,0 +1,84 @@
+.横並びA{
+	display:flex;
+	justify-content: space-between;
+	& .列{
+		background-color:orange;
+		
+		width:120px;
+	}
+}
+
+.横並びB{
+	display: flex;
+	justify-content: space-between;
+	
+	& .広い列{
+		background-color: skyblue;
+		width:240px
+	}
+	& .狭い列{
+		background-color: lightgreen;
+		width:120px
+	}	
+	
+}
+.横並びC{
+	display:flex;
+	justify-content: space-between;
+	& .列{
+		background-color:pink;
+		
+		width:120px;
+	}
+}
+	
+	.横並びD {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	
+	& .列 {
+		background-color: red;
+		width: 120px;
+		}
+	
+}
+
+.boxes{
+	display:flex;
+	justify-content: space-between;
+	& .box1 {
+  background-color: white;
+	width:120px;
+	height:250px;
+	padding:10px;
+	 border: solid 1px #000000;
+		
+		
+		
+		.イヌ{
+			width:100%;
+		}
+		
+		.ヤク{
+			width:100%
+		}
+		
+		.キツネ{
+			width:100%
+		}
+		& .h{
+			font-weight:bold;
+			font-size:20px
+		}
+		
+		& .p{
+			font-size:10px;
+		}
+	
+}
+	
+
+
+
+
